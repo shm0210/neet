@@ -532,3 +532,12 @@ footer i {
         padding: 40px 0;
     }
 }
+
+/* Add specific colors for Botany and Zoology in the progress bars */
+.subject-card:nth-child(3) .subject-header {
+    background-color: #56a663; /* Green for Botany */
+}
+
+.subject-card:nth-child(4) .subject-header {
+    background-color: #ff6b6b; /* Red for Zoology */
+}
