@@ -3,102 +3,120 @@
     "name": "Physics",
     "icon": "fa-atom",
     "chapters": [
-      {
-        "name": "Physical World and Measurement",
-        "completed": true,
-        "lecture": "https://example.com/physics/lecture1",
-        "notes": "https://example.com/physics/notes1",
-        "quiz": "https://example.com/physics/quiz1"
-      },
-      {
-        "name": "Kinematics",
-        "completed": true,
-        "lecture": "https://example.com/physics/lecture2",
-        "notes": "https://example.com/physics/notes2",
-        "quiz": "https://example.com/physics/quiz2"
-      },
-      {
-        "name": "Laws of Motion",
-        "completed": false,
-        "lecture": "https://example.com/physics/lecture3",
-        "notes": "https://example.com/physics/notes3",
-        "quiz": "https://example.com/physics/quiz3"
-      },
-      {
-        "name": "Work, Energy and Power",
-        "completed": false,
-        "lecture": "https://example.com/physics/lecture4",
-        "notes": "https://example.com/physics/notes4",
-        "quiz": "https://example.com/physics/quiz4"
-      }
+      { "name": "Physical World and Measurement", "completed": false, "lecture": "https://example.com/physics/lecture1", "notes": "https://example.com/physics/notes1", "quiz": "https://example.com/physics/quiz1" },
+      { "name": "Units and Measurements", "completed": false, "lecture": "https://example.com/physics/lecture2", "notes": "https://example.com/physics/notes2", "quiz": "https://example.com/physics/quiz2" },
+      { "name": "Motion in a Straight Line", "completed": false, "lecture": "https://example.com/physics/lecture3", "notes": "https://example.com/physics/notes3", "quiz": "https://example.com/physics/quiz3" },
+      { "name": "Motion in a Plane", "completed": false, "lecture": "https://example.com/physics/lecture4", "notes": "https://example.com/physics/notes4", "quiz": "https://example.com/physics/quiz4" },
+      { "name": "Laws of Motion", "completed": false, "lecture": "https://example.com/physics/lecture5", "notes": "https://example.com/physics/notes5", "quiz": "https://example.com/physics/quiz5" },
+      { "name": "Work, Energy and Power", "completed": false, "lecture": "https://example.com/physics/lecture6", "notes": "https://example.com/physics/notes6", "quiz": "https://example.com/physics/quiz6" },
+      { "name": "System of Particles and Rotational Motion", "completed": false, "lecture": "https://example.com/physics/lecture7", "notes": "https://example.com/physics/notes7", "quiz": "https://example.com/physics/quiz7" },
+      { "name": "Gravitation", "completed": false, "lecture": "https://example.com/physics/lecture8", "notes": "https://example.com/physics/notes8", "quiz": "https://example.com/physics/quiz8" },
+      { "name": "Mechanical Properties of Solids", "completed": false, "lecture": "https://example.com/physics/lecture9", "notes": "https://example.com/physics/notes9", "quiz": "https://example.com/physics/quiz9" },
+      { "name": "Mechanical Properties of Fluids", "completed": false, "lecture": "https://example.com/physics/lecture10", "notes": "https://example.com/physics/notes10", "quiz": "https://example.com/physics/quiz10" },
+      { "name": "Thermal Properties of Matter", "completed": false, "lecture": "https://example.com/physics/lecture11", "notes": "https://example.com/physics/notes11", "quiz": "https://example.com/physics/quiz11" },
+      { "name": "Thermodynamics", "completed": false, "lecture": "https://example.com/physics/lecture12", "notes": "https://example.com/physics/notes12", "quiz": "https://example.com/physics/quiz12" },
+      { "name": "Kinetic Theory", "completed": false, "lecture": "https://example.com/physics/lecture13", "notes": "https://example.com/physics/notes13", "quiz": "https://example.com/physics/quiz13" },
+      { "name": "Oscillations", "completed": false, "lecture": "https://example.com/physics/lecture14", "notes": "https://example.com/physics/notes14", "quiz": "https://example.com/physics/quiz14" },
+      { "name": "Waves", "completed": false, "lecture": "https://example.com/physics/lecture15", "notes": "https://example.com/physics/notes15", "quiz": "https://example.com/physics/quiz15" },
+      { "name": "Electric Charges and Fields", "completed": false, "lecture": "https://example.com/physics/lecture16", "notes": "https://example.com/physics/notes16", "quiz": "https://example.com/physics/quiz16" },
+      { "name": "Electrostatic Potential and Capacitance", "completed": false, "lecture": "https://example.com/physics/lecture17", "notes": "https://example.com/physics/notes17", "quiz": "https://example.com/physics/quiz17" },
+      { "name": "Current Electricity", "completed": false, "lecture": "https://example.com/physics/lecture18", "notes": "https://example.com/physics/notes18", "quiz": "https://example.com/physics/quiz18" },
+      { "name": "Moving Charges and Magnetism", "completed": false, "lecture": "https://example.com/physics/lecture19", "notes": "https://example.com/physics/notes19", "quiz": "https://example.com/physics/quiz19" },
+      { "name": "Magnetism and Matter", "completed": false, "lecture": "https://example.com/physics/lecture20", "notes": "https://example.com/physics/notes20", "quiz": "https://example.com/physics/quiz20" },
+      { "name": "Electromagnetic Induction", "completed": false, "lecture": "https://example.com/physics/lecture21", "notes": "https://example.com/physics/notes21", "quiz": "https://example.com/physics/quiz21" },
+      { "name": "Alternating Current", "completed": false, "lecture": "https://example.com/physics/lecture22", "notes": "https://example.com/physics/notes22", "quiz": "https://example.com/physics/quiz22" },
+      { "name": "Electromagnetic Waves", "completed": false, "lecture": "https://example.com/physics/lecture23", "notes": "https://example.com/physics/notes23", "quiz": "https://example.com/physics/quiz23" },
+      { "name": "Ray Optics and Optical Instruments", "completed": false, "lecture": "https://example.com/physics/lecture24", "notes": "https://example.com/physics/notes24", "quiz": "https://example.com/physics/quiz24" },
+      { "name": "Wave Optics", "completed": false, "lecture": "https://example.com/physics/lecture25", "notes": "https://example.com/physics/notes25", "quiz": "https://example.com/physics/quiz25" },
+      { "name": "Dual Nature of Radiation and Matter", "completed": false, "lecture": "https://example.com/physics/lecture26", "notes": "https://example.com/physics/notes26", "quiz": "https://example.com/physics/quiz26" },
+      { "name": "Atoms", "completed": false, "lecture": "https://example.com/physics/lecture27", "notes": "https://example.com/physics/notes27", "quiz": "https://example.com/physics/quiz27" },
+      { "name": "Nuclei", "completed": false, "lecture": "https://example.com/physics/lecture28", "notes": "https://example.com/physics/notes28", "quiz": "https://example.com/physics/quiz28" },
+      { "name": "Semiconductors Electronics", "completed": false, "lecture": "https://example.com/physics/lecture29", "notes": "https://example.com/physics/notes29", "quiz": "https://example.com/physics/quiz29" },
+      { "name": "Communication Systems", "completed": false, "lecture": "https://example.com/physics/lecture30", "notes": "https://example.com/physics/notes30", "quiz": "https://example.com/physics/quiz30" }
     ]
   },
   {
     "name": "Chemistry",
     "icon": "fa-flask",
     "chapters": [
-      {
-        "name": "Some Basic Concepts of Chemistry",
-        "completed": true,
-        "lecture": "https://example.com/chemistry/lecture1",
-        "notes": "https://example.com/chemistry/notes1",
-        "quiz": "https://example.com/chemistry/quiz1"
-      },
-      {
-        "name": "Structure of Atom",
-        "completed": true,
-        "lecture": "https://example.com/chemistry/lecture2",
-        "notes": "https://example.com/chemistry/notes2",
-        "quiz": "https://example.com/chemistry/quiz2"
-      },
-      {
-        "name": "Classification of Elements and Periodicity",
-        "completed": false,
-        "lecture": "https://example.com/chemistry/lecture3",
-        "notes": "https://example.com/chemistry/notes3",
-        "quiz": "https://example.com/chemistry/quiz3"
-      },
-      {
-        "name": "Chemical Bonding and Molecular Structure",
-        "completed": false,
-        "lecture": "https://example.com/chemistry/lecture4",
-        "notes": "https://example.com/chemistry/notes4",
-        "quiz": "https://example.com/chemistry/quiz4"
-      }
+      { "name": "Some Basic Concepts of Chemistry", "completed": false, "lecture": "https://example.com/chemistry/lecture1", "notes": "https://example.com/chemistry/notes1", "quiz": "https://example.com/chemistry/quiz1" },
+      { "name": "Structure of Atom", "completed": false, "lecture": "https://example.com/chemistry/lecture2", "notes": "https://example.com/chemistry/notes2", "quiz": "https://example.com/chemistry/quiz2" },
+      { "name": "Classification of Elements and Periodicity in Properties", "completed": false, "lecture": "https://example.com/chemistry/lecture3", "notes": "https://example.com/chemistry/notes3", "quiz": "https://example.com/chemistry/quiz3" },
+      { "name": "Chemical Bonding and Molecular Structure", "completed": false, "lecture": "https://example.com/chemistry/lecture4", "notes": "https://example.com/chemistry/notes4", "quiz": "https://example.com/chemistry/quiz4" },
+      { "name": "States of Matter", "completed": false, "lecture": "https://example.com/chemistry/lecture5", "notes": "https://example.com/chemistry/notes5", "quiz": "https://example.com/chemistry/quiz5" },
+      { "name": "Thermodynamics", "completed": false, "lecture": "https://example.com/chemistry/lecture6", "notes": "https://example.com/chemistry/notes6", "quiz": "https://example.com/chemistry/quiz6" },
+      { "name": "Equilibrium", "completed": false, "lecture": "https://example.com/chemistry/lecture7", "notes": "https://example.com/chemistry/notes7", "quiz": "https://example.com/chemistry/quiz7" },
+      { "name": "Redox Reactions", "completed": false, "lecture": "https://example.com/chemistry/lecture8", "notes": "https://example.com/chemistry/notes8", "quiz": "https://example.com/chemistry/quiz8" },
+      { "name": "Hydrogen", "completed": false, "lecture": "https://example.com/chemistry/lecture9", "notes": "https://example.com/chemistry/notes9", "quiz": "https://example.com/chemistry/quiz9" },
+      { "name": "The s-Block Elements", "completed": false, "lecture": "https://example.com/chemistry/lecture10", "notes": "https://example.com/chemistry/notes10", "quiz": "https://example.com/chemistry/quiz10" },
+      { "name": "The p-Block Elements (Group 13 to 18)", "completed": false, "lecture": "https://example.com/chemistry/lecture11", "notes": "https://example.com/chemistry/notes11", "quiz": "https://example.com/chemistry/quiz11" },
+      { "name": "Organic Chemistry – Some Basic Principles and Techniques", "completed": false, "lecture": "https://example.com/chemistry/lecture12", "notes": "https://example.com/chemistry/notes12", "quiz": "https://example.com/chemistry/quiz12" },
+      { "name": "Hydrocarbons", "completed": false, "lecture": "https://example.com/chemistry/lecture13", "notes": "https://example.com/chemistry/notes13", "quiz": "https://example.com/chemistry/quiz13" },
+      { "name": "Environmental Chemistry", "completed": false, "lecture": "https://example.com/chemistry/lecture14", "notes": "https://example.com/chemistry/notes14", "quiz": "https://example.com/chemistry/quiz14" },
+      { "name": "Solid State", "completed": false, "lecture": "https://example.com/chemistry/lecture15", "notes": "https://example.com/chemistry/notes15", "quiz": "https://example.com/chemistry/quiz15" },
+      { "name": "Solutions", "completed": false, "lecture": "https://example.com/chemistry/lecture16", "notes": "https://example.com/chemistry/notes16", "quiz": "https://example.com/chemistry/quiz16" },
+      { "name": "Electrochemistry", "completed": false, "lecture": "https://example.com/chemistry/lecture17", "notes": "https://example.com/chemistry/notes17", "quiz": "https://example.com/chemistry/quiz17" },
+      { "name": "Chemical Kinetics", "completed": false, "lecture": "https://example.com/chemistry/lecture18", "notes": "https://example.com/chemistry/notes18", "quiz": "https://example.com/chemistry/quiz18" },
+      { "name": "Surface Chemistry", "completed": false, "lecture": "https://example.com/chemistry/lecture19", "notes": "https://example.com/chemistry/notes19", "quiz": "https://example.com/chemistry/quiz19" },
+      { "name": "The p-Block Elements (Class 12)", "completed": false, "lecture": "https://example.com/chemistry/lecture20", "notes": "https://example.com/chemistry/notes20", "quiz": "https://example.com/chemistry/quiz20" },
+      { "name": "The d and f Block Elements", "completed": false, "lecture": "https://example.com/chemistry/lecture21", "notes": "https://example.com/chemistry/notes21", "quiz": "https://example.com/chemistry/quiz21" },
+      { "name": "Coordination Compounds", "completed": false, "lecture": "https://example.com/chemistry/lecture22", "notes": "https://example.com/chemistry/notes22", "quiz": "https://example.com/chemistry/quiz22" },
+      { "name": "Haloalkanes and Haloarenes", "completed": false, "lecture": "https://example.com/chemistry/lecture23", "notes": "https://example.com/chemistry/notes23", "quiz": "https://example.com/chemistry/quiz23" },
+      { "name": "Alcohols, Phenols and Ethers", "completed": false, "lecture": "https://example.com/chemistry/lecture24", "notes": "https://example.com/chemistry/notes24", "quiz": "https://example.com/chemistry/quiz24" },
+      { "name": "Aldehydes, Ketones and Carboxylic Acids", "completed": false, "lecture": "https://example.com/chemistry/lecture25", "notes": "https://example.com/chemistry/notes25", "quiz": "https://example.com/chemistry/quiz25" },
+      { "name": "Amines", "completed": false, "lecture": "https://example.com/chemistry/lecture26", "notes": "https://example.com/chemistry/notes26", "quiz": "https://example.com/chemistry/quiz26" },
+      { "name": "Biomolecules", "completed": false, "lecture": "https://example.com/chemistry/lecture27", "notes": "https://example.com/chemistry/notes27", "quiz": "https://example.com/chemistry/quiz27" },
+      { "name": "Polymers", "completed": false, "lecture": "https://example.com/chemistry/lecture28", "notes": "https://example.com/chemistry/notes28", "quiz": "https://example.com/chemistry/quiz28" },
+      { "name": "Chemistry in Everyday Life", "completed": false, "lecture": "https://example.com/chemistry/lecture29", "notes": "https://example.com/chemistry/notes29", "quiz": "https://example.com/chemistry/quiz29" }
     ]
   },
   {
-    "name": "Biology",
+    "name": "Botany",
+    "icon": "fa-leaf",
+    "chapters": [
+      { "name": "The Living World", "completed": false, "lecture": "https://example.com/botany/lecture1", "notes": "https://example.com/botany/notes1", "quiz": "https://example.com/botany/quiz1" },
+      { "name": "Biological Classification", "completed": false, "lecture": "https://example.com/botany/lecture2", "notes": "https://example.com/botany/notes2", "quiz": "https://example.com/botany/quiz2" },
+      { "name": "Plant Kingdom", "completed": false, "lecture": "https://example.com/botany/lecture3", "notes": "https://example.com/botany/notes3", "quiz": "https://example.com/botany/quiz3" },
+      { "name": "Morphology of Flowering Plants", "completed": false, "lecture": "https://example.com/botany/lecture4", "notes": "https://example.com/botany/notes4", "quiz": "https://example.com/botany/quiz4" },
+      { "name": "Anatomy of Flowering Plants", "completed": false, "lecture": "https://example.com/botany/lecture5", "notes": "https://example.com/botany/notes5", "quiz": "https://example.com/botany/quiz5" },
+      { "name": "Cell: The Unit of Life", "completed": false, "lecture": "https://example.com/botany/lecture6", "notes": "https://example.com/botany/notes6", "quiz": "https://example.com/botany/quiz6" },
+      { "name": "Biomolecules", "completed": false, "lecture": "https://example.com/botany/lecture7", "notes": "https://example.com/botany/notes7", "quiz": "https://example.com/botany/quiz7" },
+      { "name": "Cell Cycle and Cell Division", "completed": false, "lecture": "https://example.com/botany/lecture8", "notes": "https://example.com/botany/notes8", "quiz": "https://example.com/botany/quiz8" },
+      { "name": "Transport in Plants", "completed": false, "lecture": "https://example.com/botany/lecture9", "notes": "https://example.com/botany/notes9", "quiz": "https://example.com/botany/quiz9" },
+      { "name": "Mineral Nutrition", "completed": false, "lecture": "https://example.com/botany/lecture10", "notes": "https://example.com/botany/notes10", "quiz": "https://example.com/botany/quiz10" },
+      { "name": "Photosynthesis in Higher Plants", "completed": false, "lecture": "https://example.com/botany/lecture11", "notes": "https://example.com/botany/notes11", "quiz": "https://example.com/botany/quiz11" },
+      { "name": "Respiration in Plants", "completed": false, "lecture": "https://example.com/botany/lecture12", "notes": "https://example.com/botany/notes12", "quiz": "https://example.com/botany/quiz12" },
+      { "name": "Plant Growth and Development", "completed": false, "lecture": "https://example.com/botany/lecture13", "notes": "https://example.com/botany/notes13", "quiz": "https://example.com/botany/quiz13" },
+      { "name": "Reproduction in Organisms", "completed": false, "lecture": "https://example.com/botany/lecture14", "notes": "https://example.com/botany/notes14", "quiz": "https://example.com/botany/quiz14" },
+      { "name": "Sexual Reproduction in Flowering Plants", "completed": false, "lecture": "https://example.com/botany/lecture15", "notes": "https://example.com/botany/notes15", "quiz": "https://example.com/botany/quiz15" },
+      { "name": "Principles of Inheritance and Variation", "completed": false, "lecture": "https://example.com/botany/lecture16", "notes": "https://example.com/botany/notes16", "quiz": "https://example.com/botany/quiz16" },
+      { "name": "Molecular Basis of Inheritance", "completed": false, "lecture": "https://example.com/botany/lecture17", "notes": "https://example.com/botany/notes17", "quiz": "https://example.com/botany/quiz17" },
+      { "name": "Evolution", "completed": false, "lecture": "https://example.com/botany/lecture18", "notes": "https://example.com/botany/notes18", "quiz": "https://example.com/botany/quiz18" },
+      { "name": "Strategies for Enhancement in Food Production", "completed": false, "lecture": "https://example.com/botany/lecture19", "notes": "https://example.com/botany/notes19", "quiz": "https://example.com/botany/quiz19" },
+      { "name": "Microbes in Human Welfare", "completed": false, "lecture": "https://example.com/botany/lecture20", "notes": "https://example.com/botany/notes20", "quiz": "https://example.com/botany/quiz20" },
+      { "name": "Biotechnology: Principles and Processes", "completed": false, "lecture": "https://example.com/botany/lecture21", "notes": "https://example.com/botany/notes21", "quiz": "https://example.com/botany/quiz21" },
+      { "name": "Biotechnology and Its Applications", "completed": false, "lecture": "https://example.com/botany/lecture22", "notes": "https://example.com/botany/notes22", "quiz": "https://example.com/botany/quiz22" },
+      { "name": "Ecology and Environment", "completed": false, "lecture": "https://example.com/botany/lecture23", "notes": "https://example.com/botany/notes23", "quiz": "https://example.com/botany/quiz23" }
+    ]
+  },
+  {
+    "name": "Zoology",
     "icon": "fa-dna",
     "chapters": [
-      {
-        "name": "The Living World",
-        "completed": true,
-        "lecture": "https://example.com/biology/lecture1",
-        "notes": "https://example.com/biology/notes1",
-        "quiz": "https://example.com/biology/quiz1"
-      },
-      {
-        "name": "Biological Classification",
-        "completed": true,
-        "lecture": "https://example.com/biology/lecture2",
-        "notes": "https://example.com/biology/notes2",
-        "quiz": "https://example.com/biology/quiz2"
-      },
-      {
-        "name": "Plant Kingdom",
-        "completed": false,
-        "lecture": "https://example.com/biology/lecture3",
-        "notes": "https://example.com/biology/notes3",
-        "quiz": "https://example.com/biology/quiz3"
-      },
-      {
-        "name": "Animal Kingdom",
-        "completed": false,
-        "lecture": "https://example.com/biology/lecture4",
-        "notes": "https://example.com/biology/notes4",
-        "quiz": "https://example.com/biology/quiz4"
-      }
+      { "name": "Animal Kingdom", "completed": false, "lecture": "https://example.com/zoology/lecture1", "notes": "https://example.com/zoology/notes1", "quiz": "https://example.com/zoology/quiz1" },
+      { "name": "Structural Organisation in Animals", "completed": false, "lecture": "https://example.com/zoology/lecture2", "notes": "https://example.com/zoology/notes2", "quiz": "https://example.com/zoology/quiz2" },
+      { "name": "Digestion and Absorption", "completed": false, "lecture": "https://example.com/zoology/lecture3", "notes": "https://example.com/zoology/notes3", "quiz": "https://example.com/zoology/quiz3" },
+      { "name": "Breathing and Exchange of Gases", "completed": false, "lecture": "https://example.com/zoology/lecture4", "notes": "https://example.com/zoology/notes4", "quiz": "https://example.com/zoology/quiz4" },
+      { "name": "Body Fluids and Circulation", "completed": false, "lecture": "https://example.com/zoology/lecture5", "notes": "https://example.com/zoology/notes5", "quiz": "https://example.com/zoology/quiz5" },
+      { "name": "Excretory Products and Their Elimination", "completed": false, "lecture": "https://example.com/zoology/lecture6", "notes": "https://example.com/zoology/notes6", "quiz": "https://example.com/zoology/quiz6" },
+      { "name": "Locomotion and Movement", "completed": false, "lecture": "https://example.com/zoology/lecture7", "notes": "https://example.com/zoology/notes7", "quiz": "https://example.com/zoology/quiz7" },
+      { "name": "Neural Control and Coordination", "completed": false, "lecture": "https://example.com/zoology/lecture8", "notes": "https://example.com/zoology/notes8", "quiz": "https://example.com/zoology/quiz8" },
+      { "name": "Chemical Coordination and Integration", "completed": false, "lecture": "https://example.com/zoology/lecture9", "notes": "https://example.com/zoology/notes9", "quiz": "https://example.com/zoology/quiz9" },
+      { "name": "Human Reproduction", "completed": false, "lecture": "https://example.com/zoology/lecture10", "notes": "https://example.com/zoology/notes10", "quiz": "https://example.com/zoology/quiz10" },
+      { "name": "Reproductive Health", "completed": false, "lecture": "https://example.com/zoology/lecture11", "notes": "https://example.com/zoology/notes11", "quiz": "https://example.com/zoology/quiz11" },
+      { "name": "Human Health and Disease", "completed": false, "lecture": "https://example.com/zoology/lecture12", "notes": "https://example.com/zoology/notes12", "quiz": "https://example.com/zoology/quiz12" },
+      { "name": "Evolution", "completed": false, "lecture": "https://example.com/zoology/lecture13", "notes": "https://example.com/zoology/notes13", "quiz": "https://example.com/zoology/quiz13" },
+      { "name": "Human Physiology (Overview)", "completed": false, "lecture": "https://example.com/zoology/lecture14", "notes": "https://example.com/zoology/notes14", "quiz": "https://example.com/zoology/quiz14" }
     ]
   }
 ]
