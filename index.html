@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Aspirant Portal | Your Path to Medical College</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-stethoscope"></i>
+                <h1>NEET Aspirant Portal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#subjects">Subjects</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#schedule">Study Plan</a></li>
+                    <li><a href="#progress">Progress</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <button id="theme-toggle" class="btn-icon">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section">
+            <div class="container">
+                <div class="dashboard-grid">
+                    <!-- Countdown Timer -->
+                    <div class="card countdown-card">
+                        <h2>NEET 2026 Countdown</h2>
+                        <div class="countdown">
+                            <div class="countdown-item">
+                                <span id="days">00</span>
+                                <p>Days</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="hours">00</span>
+                                <p>Hours</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="minutes">00</span>
+                                <p>Minutes</p>
+                            </div>
+                            <div class="countdown-item">
+                                <span id="seconds">00</span>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                        <p class="exam-date">Exam Date: May 3, 2026</p>
+                    </div>
+
+                    <!-- Daily Quote -->
+                    <div class="card quote-card">
+                        <h2>Daily Motivation</h2>
+                        <div class="quote-content">
+                            <p id="quote-text">"Success is the sum of small efforts repeated day in and day out."</p>
+                            <p id="quote-author">- Robert Collier</p>
+                        </div>
+                        <button id="new-quote" class="btn-secondary">New Quote</button>
+                    </div>
+
+                    <!-- Quick Stats -->
+                    <div class="card stats-card">
+                        <h2>Study Progress</h2>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3 id="completed-chapters">0</h3>
+                                <p>Chapters Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 id="total-chapters">0</h3>
+                                <p>Total Chapters</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 id="study-hours">0</h3>
+                                <p>Hours Studied</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="card actions-card">
+                        <h2>Quick Actions</h2>
+                        <div class="actions">
+                            <button class="btn-primary" id="today-plan">Today's Study Plan</button>
+                            <button class="btn-primary" id="take-quiz">Take a Quiz</button>
+                            <button class="btn-primary" id="doubt-forum">Doubt Forum</button>
+                            <button class="btn-primary" id="mock-test">Mock Test</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subjects Section -->
+        <section id="subjects" class="section">
+            <div class="container">
+                <h2 class="section-title">Subjects & Chapters</h2>
+                <div class="subjects-container" id="subjects-container">
+                    <!-- Subjects will be loaded dynamically from subjects.json -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="section">
+            <div class="container">
+                <h2 class="section-title">Study Resources</h2>
+                <div class="resources-grid">
+                    <div class="card resource-card">
+                        <i class="fas fa-book"></i>
+                        <h3>NCERT Books</h3>
+                        <p>Download all NCERT textbooks for NEET preparation</p>
+                        <button class="btn-primary">Access</button>
+                    </div>
+                    <div class="card resource-card">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Previous Papers</h3>
+                        <p>NEET previous year question papers with solutions</p>
+                        <button class="btn-primary">Access</button>
+                    </div>
+                    <div class="card resource-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Video Lectures</h3>
+                        <p>Curated video lectures from top educators</p>
+                        <button class="btn-primary">Access</button>
+                    </div>
+                    <div class="card resource-card">
+                        <i class="fas fa-notes-medical"></i>
+                        <h3>Revision Notes</h3>
+                        <p>Concise notes for quick revision before exams</p>
+                        <button class="btn-primary">Access</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Schedule Section -->
+        <section id="schedule" class="section">
+            <div class="container">
+                <h2 class="section-title">Study Schedule</h2>
+                <div class="schedule-container">
+                    <div class="schedule-nav">
+                        <button id="prev-week" class="btn-icon"><i class="fas fa-chevron-left"></i></button>
+                        <h3 id="current-week">Week 1</h3>
+                        <button id="next-week" class="btn-icon"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="schedule" id="study-schedule">
+                        <!-- Schedule will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Tracking Section -->
+        <section id="progress" class="section">
+            <div class="container">
+                <h2 class="section-title">Progress Tracking</h2>
+                <div class="progress-container">
+                    <div class="card progress-card">
+                        <h3>Subject-wise Progress</h3>
+                        <div class="progress-bars" id="subject-progress">
+                            <!-- Progress bars will be loaded dynamically -->
+                        </div>
+                    </div>
+                    <div class="card progress-card">
+                        <h3>Performance Analytics</h3>
+                        <div class="analytics">
+                            <canvas id="performance-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NEET Aspirant Portal. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> for NEET Aspirants</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
