@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Physics",
+    "icon": "fa-atom",
+    "chapters": [
+      {
+        "name": "Physical World and Measurement",
+        "completed": true,
+        "lecture": "https://example.com/physics/lecture1",
+        "notes": "https://example.com/physics/notes1",
+        "quiz": "https://example.com/physics/quiz1"
+      },
+      {
+        "name": "Kinematics",
+        "completed": true,
+        "lecture": "https://example.com/physics/lecture2",
+        "notes": "https://example.com/physics/notes2",
+        "quiz": "https://example.com/physics/quiz2"
+      },
+      {
+        "name": "Laws of Motion",
+        "completed": false,
+        "lecture": "https://example.com/physics/lecture3",
+        "notes": "https://example.com/physics/notes3",
+        "quiz": "https://example.com/physics/quiz3"
+      },
+      {
+        "name": "Work, Energy and Power",
+        "completed": false,
+        "lecture": "https://example.com/physics/lecture4",
+        "notes": "https://example.com/physics/notes4",
+        "quiz": "https://example.com/physics/quiz4"
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "icon": "fa-flask",
+    "chapters": [
+      {
+        "name": "Some Basic Concepts of Chemistry",
+        "completed": true,
+        "lecture": "https://example.com/chemistry/lecture1",
+        "notes": "https://example.com/chemistry/notes1",
+        "quiz": "https://example.com/chemistry/quiz1"
+      },
+      {
+        "name": "Structure of Atom",
+        "completed": true,
+        "lecture": "https://example.com/chemistry/lecture2",
+        "notes": "https://example.com/chemistry/notes2",
+        "quiz": "https://example.com/chemistry/quiz2"
+      },
+      {
+        "name": "Classification of Elements and Periodicity",
+        "completed": false,
+        "lecture": "https://example.com/chemistry/lecture3",
+        "notes": "https://example.com/chemistry/notes3",
+        "quiz": "https://example.com/chemistry/quiz3"
+      },
+      {
+        "name": "Chemical Bonding and Molecular Structure",
+        "completed": false,
+        "lecture": "https://example.com/chemistry/lecture4",
+        "notes": "https://example.com/chemistry/notes4",
+        "quiz": "https://example.com/chemistry/quiz4"
+      }
+    ]
+  },
+  {
+    "name": "Biology",
+    "icon": "fa-dna",
+    "chapters": [
+      {
+        "name": "The Living World",
+        "completed": true,
+        "lecture": "https://example.com/biology/lecture1",
+        "notes": "https://example.com/biology/notes1",
+        "quiz": "https://example.com/biology/quiz1"
+      },
+      {
+        "name": "Biological Classification",
+        "completed": true,
+        "lecture": "https://example.com/biology/lecture2",
+        "notes": "https://example.com/biology/notes2",
+        "quiz": "https://example.com/biology/quiz2"
+      },
+      {
+        "name": "Plant Kingdom",
+        "completed": false,
+        "lecture": "https://example.com/biology/lecture3",
+        "notes": "https://example.com/biology/notes3",
+        "quiz": "https://example.com/biology/quiz3"
+      },
+      {
+        "name": "Animal Kingdom",
+        "completed": false,
+        "lecture": "https://example.com/biology/lecture4",
+        "notes": "https://example.com/biology/notes4",
+        "quiz": "https://example.com/biology/quiz4"
+      }
+    ]
+  }
+]
