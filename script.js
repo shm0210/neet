@@ -271,6 +271,21 @@ function initializePerformanceChart(subjects) {
         const completedChapters = subject.chapters.filter(chapter => chapter.completed).length;
         return Math.round((completedChapters / totalChapters) * 100);
     });
+
+    // Updated color arrays
+    const colors = [
+        'rgba(74, 111, 165, 0.7)',
+        'rgba(107, 140, 188, 0.7)',
+        'rgba(86, 166, 99, 0.7)',    // Green for Botany
+        'rgba(255, 107, 107, 0.7)'   // Red for Zoology
+    ];
+
+    const borderColors = [
+        'rgba(74, 111, 165, 1)',
+        'rgba(107, 140, 188, 1)',
+        'rgba(86, 166, 99, 1)',      // Green for Botany
+        'rgba(255, 107, 107, 1)'     // Red for Zoology
+    ];
     
     new Chart(ctx, {
         type: 'bar',
@@ -279,16 +294,8 @@ function initializePerformanceChart(subjects) {
             datasets: [{
                 label: 'Completion Rate (%)',
                 data: completionRates,
-                backgroundColor: [
-                    'rgba(74, 111, 165, 0.7)',
-                    'rgba(107, 140, 188, 0.7)',
-                    'rgba(255, 107, 107, 0.7)'
-                ],
-                borderColor: [
-                    'rgba(74, 111, 165, 1)',
-                    'rgba(107, 140, 188, 1)',
-                    'rgba(255, 107, 107, 1)'
-                ],
+                backgroundColor: colors,
+                borderColor: borderColors,
                 borderWidth: 1
             }]
         },
