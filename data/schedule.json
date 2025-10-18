@@ -1,0 +1,70 @@
+{
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "days": [
+        {
+          "name": "Monday",
+          "tasks": [
+            "Physics: Laws of Motion (2 hours)",
+            "Chemistry: Chemical Bonding (2 hours)",
+            "Biology: Plant Kingdom (1.5 hours)",
+            "Revision: Previous chapters (1 hour)"
+          ]
+        },
+        {
+          "name": "Tuesday",
+          "tasks": [
+            "Physics: Work, Energy and Power (2 hours)",
+            "Chemistry: States of Matter (2 hours)",
+            "Biology: Animal Kingdom (1.5 hours)",
+            "Practice Questions (1 hour)"
+          ]
+        },
+        {
+          "name": "Wednesday",
+          "tasks": [
+            "Physics: System of Particles (2 hours)",
+            "Chemistry: Thermodynamics (2 hours)",
+            "Biology: Morphology of Plants (1.5 hours)",
+            "Mock Test (2 hours)"
+          ]
+        },
+        {
+          "name": "Thursday",
+          "tasks": [
+            "Physics: Gravitation (2 hours)",
+            "Chemistry: Equilibrium (2 hours)",
+            "Biology: Anatomy of Plants (1.5 hours)",
+            "Revision: Weak areas (1 hour)"
+          ]
+        },
+        {
+          "name": "Friday",
+          "tasks": [
+            "Physics: Mechanical Properties (2 hours)",
+            "Chemistry: Redox Reactions (2 hours)",
+            "Biology: Structural Organization (1.5 hours)",
+            "Practice Questions (1 hour)"
+          ]
+        },
+        {
+          "name": "Saturday",
+          "tasks": [
+            "Full-length Mock Test (3 hours)",
+            "Analysis and Revision (2 hours)",
+            "Doubt Clearing Session (1 hour)"
+          ]
+        },
+        {
+          "name": "Sunday",
+          "tasks": [
+            "Weekly Revision (2 hours)",
+            "Planning for next week (1 hour)",
+            "Rest and Recreation"
+          ]
+        }
+      ]
+    }
+  ]
+}
