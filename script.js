@@ -341,3 +341,55 @@ function updateThemeIcon(theme) {
         icon.className = 'fas fa-moon';
     }
 }
+
+// Mobile Menu Elements
+const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+const mainNav = document.getElementById('main-nav');
+
+// Initialize Mobile Menu
+function initializeMobileMenu() {
+    mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+    
+    // Close mobile menu when clicking on a link
+    const navLinks = mainNav.querySelectorAll('a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', closeMobileMenu);
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!mainNav.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+            closeMobileMenu();
+        }
+    });
+}
+
+// Toggle Mobile Menu
+function toggleMobileMenu() {
+    mainNav.classList.toggle('active');
+    mobileMenuToggle.classList.toggle('active');
+}
+
+// Close Mobile Menu
+function closeMobileMenu() {
+    mainNav.classList.remove('active');
+    mobileMenuToggle.classList.remove('active');
+}
+
+// Update the DOMContentLoaded event listener to include mobile menu initialization
+document.addEventListener('DOMContentLoaded', function() {
+    initializeCountdown();
+    loadQuote();
+    loadSubjects();
+    loadStudySchedule();
+    initializeProgressTracking();
+    initializeTheme();
+    initializeMobileMenu(); // Add this line
+    
+    // Set up event listeners
+    newQuoteBtn.addEventListener('click', loadQuote);
+    themeToggle.addEventListener('click', toggleTheme);
+    
+    // Update countdown every second
+    setInterval(initializeCountdown, 1000);
+});
