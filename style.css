@@ -55,12 +55,13 @@ header {
     z-index: 100;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 .logo {
     display: flex;
@@ -79,10 +80,8 @@ header .container {
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
+        gap: 0;
+    }
 
 nav a {
     text-decoration: none;
@@ -98,6 +97,40 @@ nav a:hover {
 .user-actions {
     display: flex;
     gap: 10px;
+}
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .countdown {
+        gap: 10px;
+    }
+    
+    .countdown-item span {
+        font-size: 24px;
+    }
+    
+    .stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .subjects-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .progress-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .section {
+        padding: 40px 0;
+    }
 }
 
 /* Button Styles */
